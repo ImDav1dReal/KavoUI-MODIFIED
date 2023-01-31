@@ -96,8 +96,8 @@ function Kavo.CreateLib(kavName, themeList)
     if not themeList then
         themeList = themes
     end
-    if themeList == "DarkTheme" then
-        themeList = themeStyles.DarkTheme
+    if themeList == "Dark" then
+        themeList = themeStyles.Dark
     else
         if themeList.SchemeColor == nil then
             themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
